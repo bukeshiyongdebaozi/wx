@@ -44,6 +44,7 @@ class MainActivity : ComponentActivity() {
         val settings = webView.settings
         settings.javaScriptEnabled = true
         settings.domStorageEnabled = true
+        settings.domStorageEnabled = true
         settings.databaseEnabled = true
         settings.loadWithOverviewMode = true
         settings.useWideViewPort = true
